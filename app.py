@@ -11,8 +11,7 @@ def fibonacci():
     for i in range(49):
         b = b + a
         a = b - a
-        b = x
-        x += str(a) + ", "
+        x += str(a) + ', '
     return x
 
 
